@@ -4,45 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/index.css">
+    <link rel="stylesheet" href="/styles/fonts.css"
     <title>FLASH Studios</title>
 </head>
 <body>
-    <video id="background-video" autoplay loop muted poster="">
-        <source src="/images/background.mp4" type="video/mp4">
-    </video>
-    <header>
-        <h1>F.L.A.S.H Studios</h1>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Gallery</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
-            </ul>
-        </nav>
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="./images/logo-icon.png" alt="logo icon" class="logo-icon">
+          <p>F.L.A.S.H Studios</p>
+        </div>
+        <ul class="nav-menu">
+          <li><a href="/index.html" class="nav-link">Home</a></li>
+          <li><a href="/gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="/about.html" class="nav-link">About</a></li>
+          <li><a href="/contact.html" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
     </header> 
 
-    <section>
+    <section id="intro">
         <div>
-            <h2>Welcome to F.L.A.S.H Studios</h2>
-            <p>Here, we make today's unique moments, tommorow's invaluable riches.</p>
-            </div>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
+            <h1>Welcome to F.L.A.S.H</h1>
+            <p>Here we make today's unique moments, tommorow's invaluable riches.</p>
+            <a href="/gallery.html"><button class="gallery-button">View Gallery</button></a>
         </div>
-
-        <button>View Gallery</button>
+        <div>
+          <img src="./images/intro-image.jpg" alt="intro image" id="intro-image">
+        </div>
+    </section>
+    
+    <span class="section-divider"></span>
+    
+    <section id="services-section">
+      <h2>Our Services</h2>
+      <div class="cards">
+          <div class="card">
+            <img src="./images/wedding-photograpgy.jpg" alt="wedding photography image">
+            <div class="service-description">
+              <h3>Wedding Photography</h3>
+              <p>We ensure that every important moment of your wedding is preserved in photographs.</p>
+            </div>
+          </div>
+            
+          <div class="card">
+            <img src="./images/event-photography.jpg" alt="event photography image">
+            <div class="service-description">
+              <h3>Event Photography</h3>
+              <p>From birthdays to sport events, we capture any type of group event or gathering.</p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <img src="./images/portrait-photography.jpg" alt="portrait photography image">
+            <div class="service-description">
+              <h3>Portrait Photography</h3>
+              <p>Using background, lightning and posing, we work to capture the essense of you.</p>
+            </div>
+          </div>
+      </div>
+      
+      
     </section>
 
-    <footer>
-        <h5>F.L.A.S.H Studios</h5>
-        <span>copyright &copy; 2022 Flashstudios.inc</span>
+    <footer class="footer">
+        <h4>F.L.A.S.H Studios</h4>
+        <span>copyright&copy;2022 flashstudios.inc</span>
         <div>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <a href="#"><img src="./images/facebook-icon.png" alt="facebook icon"></a>
+            <a href="#"><img src="./images/twitter-icon.png" alt="twitter icon"></a>
+            <a href="#"><img src="./images/instagram-icon.png" alt="instagram icon"></a>
         </div>
     </footer>
+    <script src="/script.js"></script>
 </body>
 </html>

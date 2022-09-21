@@ -1,0 +1,65 @@
+h1 {
+  text-align: center;
+  font-size: 35px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.slider {
+  margin: 100px auto;
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  border-radius: 15px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  max-width: 800px;
+  height: 350px;
+  position: absolute;
+  transition: all 0.5s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 70%;
+  z-index: 10px;
+  cursor: pointer;
+  background-color: rgba(246, 241, 209);
+  font-size: 18px;
+}
+
+.btn:active {
+  transform: scale(1.1);
+}
+
+.prevBtn {
+  top: 45%;
+  left: 2%;
+}
+
+.nextBtn {
+  top: 45%;
+  right: 2%;
+}
+
+@media (max-width: 650px) {
+  .slider {
+    width: 80%;
+    margin-top: 190px;
+  }
+}

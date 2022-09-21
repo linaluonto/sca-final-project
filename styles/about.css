@@ -1,0 +1,38 @@
+.about-section {
+  margin: 160px 40px 0 40px;
+}
+
+.about-paragraph {
+  margin-top: 90px;
+}
+
+.about-section p {
+  margin: 40px auto 0 auto;
+  font-size: 22px;
+}
+
+.about-section a {
+  color: tomato;
+}
+
+.about-section a:hover {
+  color: #682ff7;
+}
+
+.about-section img {
+  width: 100%;
+}
+
+@media (max-width: 650px) {
+  .about-section p {
+    font-size: 17px;
+  }
+  
+  .about-section {
+    margin-top: 50px;
+  }
+  
+  .footer {
+    top: 95%;
+  }
+}

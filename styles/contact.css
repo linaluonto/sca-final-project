@@ -51,6 +51,17 @@ textarea {
 
   .addContact {
     margin-top: 28px;
-    font-size: 13px;
+  }
+
+  textarea {
+    width: 80%;
+  }
+
+  button {
+    margin: 19px 4px;
+  }
+
+  .addContact p {
+    font-size: 17px;
   }
 }
